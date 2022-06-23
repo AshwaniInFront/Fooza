@@ -2,8 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     background-color: #F5F4F2;
-    height: calc(100vh - 100px);
-    overflow-y: hidden;
+    height: calc(100vh - 20px);
+    margin: 0 0;
 }
 
 p,
@@ -26,7 +26,7 @@ h6 {
 
 .fooza-poster {
     position: relative;
-    padding: 40px 0;
+    padding: 40px 0 0;
 
 }
 
@@ -181,7 +181,7 @@ h6 {
     width: 610px;
     margin: auto;
     position: absolute;
-    bottom: 80px;
+    bottom: 20px;
     text-align: center;
     padding: 0 9px 0 12px;
     margin: auto;
@@ -197,7 +197,7 @@ h6 {
 
 .left-content {
     position: absolute;
-    left: -6%;
+    left: -12%;
     font-size: 36px;
     top: 50%;
     z-index: 1;
@@ -207,7 +207,7 @@ h6 {
 
 .right-content {
     position: absolute;
-    right: -6%;
+    right: -12%;
     font-size: 36px;
     z-index: 1;
     top: 50%;
