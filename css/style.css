@@ -1,0 +1,215 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #F5F4F2;
+    height: calc(100vh - 20mm   );
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.fooza-poster {
+    position: relative;
+    padding: 60px;
+
+}
+
+.fooza-poster:before {
+    content: '';
+    position: absolute;
+    background-image: url('../images/unnamed.jpg');
+    min-height: 5px;
+    width: calc(100% + 100px);
+    min-height: 550px;
+    left: -50px;
+    top: 26%;
+    z-index: -1;
+}
+
+.fooza-main {
+    background-color: #F5F4F2;
+    max-width: 640px;
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.8);
+    margin: auto;
+    text-align: center;
+    padding: 25px 0px 90px;
+}
+
+.fooza-content {
+    position: relative;
+    background-color: #B12178;
+    padding: 25px 18px;
+    border-radius: 25px;
+    color: #FFF;
+    max-width: 450px;
+    margin: auto;
+}
+
+.fooza-content:before {
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    left: -10%;
+    width: 65px;
+    height: 65px;
+    background-color: #F5F4F2;
+    border-radius: 50%;
+}
+
+.fooza-content:after {
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    right: -10%;
+    width: 65px;
+    height: 65px;
+    background-color: #F5F4F2;
+    border-radius: 50%;
+}
+
+.fooza-poster-info p {
+    background-color: #FFF;
+    font-size: 53px;
+    color: #000;
+}
+
+.fooza-discount {
+    margin-top: 30px;
+}
+
+.fooza-discount h2 {
+    font-size: 76px;
+}
+
+.fooza-discount p {
+    font-size: 35px;
+}
+
+.fooza-discount p span {
+    font-style: italic;
+}
+
+.fooza-discount p:last-child {
+    font-size: 20px;
+}
+
+.purple-circle {
+    position: absolute;
+    left: -100px;
+    top: -90px;
+    height: 340px;
+    width: 340px;
+    z-index: -1;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #B12178;
+}
+
+
+.fooza-logo {
+    max-width: 400px;
+    margin: 0 auto 35px;
+}
+
+.orange-circle {
+    position: absolute;
+    right: -70px;
+    bottom: -50px;
+    z-index: -1;
+    height: 270px;
+    width: 270px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #FB6B01;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.QR-image {
+    max-width: 228px;
+    margin: auto;
+}
+
+.fooza-bonus {
+    margin-top: 30px;
+}
+
+.fooza-bonus p:first-child {
+    font-size: 30px;
+}
+
+.fooza-bonus h4 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.fooza-bonus span {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.fooza-bonus p:last-child {
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.download-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 10px;
+    width: 610px;
+    margin: auto;
+    position: absolute;
+    bottom: 80px;
+    text-align: center;
+    padding: 0 9px 0 12px;
+    margin: auto;
+    color: #7F7F7F;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.download-app img {
+    max-width: 140px;
+}
+
+.left-content {
+    position: absolute;
+    left: -60px;
+    font-size: 36px;
+    top: 50%;
+    z-index: 1;
+    color: #7F7F7F;
+    transform: rotate(270Deg);
+}
+
+.right-content {
+    position: absolute;
+    right: -60px;
+    font-size: 36px;
+    z-index: 1;
+    top: 50%;
+    color: #7F7F7F;
+    transform: rotate(90Deg);
+}
