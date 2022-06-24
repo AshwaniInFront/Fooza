@@ -5,60 +5,248 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FOOZA</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+            background-color: #F5F4F2;
+            height: calc(100vh - 20px);
+            margin: 0 0;
+            text-align: center;
+            font-size: 16pt;
+            padding: 40pt;
+        }
+
+    </style>
+
 </head>
 
 <body>
-    </main>
-        <div class="container">
-        <div class="fooza-poster">
-            <div class="purple-circle"></div>
-                <div class="fooza-main">
-                <div class="left-content" >
-                    <p>#DeliveringHappiness</p> 
-                </div>   
-                <div class="fooza-logo">
-                    <img src="./images/logo.png" class="img-fluid" alt="fooza">
+
+    <table cellpadding="0" cellspacing="0" width="600"
+        style="width:100%; 
+         position: relative;
+         max-width: 600px; 
+         margin: 15px auto;
+         background-color: #F5F4F2; 
+         border-collapse: collapse;
+         box-shadow: 0px 0px 10px;
+        ">
+        <tr>
+            <td style="
+                background-image: url('unnamed.jpg');
+                position: absolute;
+                width: calc(100% + 200px);
+                min-height: 550px;
+                left: -100px;
+                top: 26%;
+                z-index: -1;">
+            </td>
+        </tr>
+        <tr style="position: relative;">
+            <td>
+                <div class="purple-circle"
+                style="
+                position:absolute;
+                left: -20%;
+                top: -20%;
+                height: 280px;
+                width: 280px;
+                z-index: -1;
+                display: inline-block;
+                border-radius: 50%;
+                background-color: #B12178;"
+                >
                 </div>
-                <div class="fooza-content">
-                    <div class="fooza-poster-info">
-                        <p>Restaurant Name</p>
-                    </div>
-                    <div class="fooza-discount">
-                        <h2>Get 25% Off*</h2>
-                        <p>Order on <span> FOOZA </span> <br>
-                           Use Code FOOZA25
-                        </p>
-                        <p>for your first order over Rs. 249</p>
-                    </div>
-                    <div class="fooza-bonus">
-                        <p>1st order over Rs. 399</p>
-                        <h4>Gets Rs. 100 future bonus*</h4>
-                        <span> *T & C apply</span>
-                        <p>scan and download the app now</p>
-                    </div>
-                    <div class="QR-image">
-                        <img src="images/QR_image.png" class="img-fluid" alt="QR">
-                    </div>
+            </td>
+        </tr>
+        <tr class="left-content">
+            <td style="    
+            position: absolute;
+            left: -26%;
+            font-size: 30pt;
+            top: 50%;
+            z-index: 1;
+            color: #7F7F7F;
+            transform: rotate(270Deg);">
+                #DeliveringHappiness
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="padding-top:15px ;">
+                <img src="logo.png" style="max-width: 370px;" alt="fooza">
+            </td>
+        </tr>
+        <tr style="margin-top:20px;">
+            <td>
+                <table align="center" style="position: relative;
+                    background-color: #B12178;
+                    padding: 25px 18px;
+                    border-radius: 25px;
+                    color: #FFF;
+                    max-width: 450px;
+                    margin: auto; 
+                    margin-top:20px;">
+                <tr class="left-circle">
+                    <td style="
+                    position: absolute;
+                    bottom: 30%;
+                    left: -12%;
+                    width: 65px;
+                    height: 65px;
+                    background-color: #F5F4F2;
+                    border-radius: 50%;
+                        "></td>
+                </tr>
+                <tr>
+                    <td style="background-color: #FFF;
+                        font-size: 36pt;
+                        color: #000;
+                        padding: 4pt;
+                        text-align: center;
+                        ">
+                        Restaurant Name
+                    </td> 
+                
+                </tr>
+                <tr align="center">
+                    <td style="
+                    font-size: 52pt;
+                    font-weight: 600;
+                    padding-top: 25pt;
+                    "> 
+                     Get 25% Off*
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td style="
+                    font-size: 24pt;
+                    font-weight: 300;
+                    "> 
+                    Order on <span style="font-style:italic"> FOOZA </span> 
+                    </td>
+                    
+                </tr>
+                <tr align="center">
+                    <td  style="
+                    font-size: 24pt;
+                    font-weight: 300;
+                    ">
+                        Use Code FOOZA25               
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td  style="
+                    font-weight: 300;
+                    font-size: 13pt;
+                    ">
+                    for your first order over Rs. 249
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td  style="
+                    padding-top: 25pt;
+                    font-size: 17pt;
+                    ">
+                    1st order over Rs. 399
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td  style="
+                    
+                    font-size: 22pt;
+                    font-weight: 500;
+                    ">
+                    Gets Rs. 100 future bonus*
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td  style="
+                    font-weight: 300;
+                    font-size: 13pt;
+                    ">
+                    *T & C apply
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td  style="
+                    font-weight: 300;
+                    padding-top: 15pt;
+                    font-weight: 500;
+                    font-size: 12pt;
+                    ">
+                    Scan & Download the app                    
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td  style="
+                    ">
+                    <img src="QR_image.png" style="max-width:210px;" alt="qr">
+                    </td>
+                </tr>
+                <tr class="right-circle">
+                    <td style="
+                    position: absolute;
+                    bottom: 30%;
+                    right: -12%;
+                    width: 65px;
+                    height: 65px;
+                    background-color: #F5F4F2;
+                    border-radius: 50%;
+                        "></td>
+                </tr>
+                </table>
+            </td>
+            
+        </tr>
+        <tr style="display:flex;justify-content: space-between;padding-top: 10pt;margin: 10pt;">
+            <td><img src="playStore.png" style="max-width: 130px;" alt="play store"></td>
+            <td align="center" 
+            style="color: #7F7F7F;
+            font-size: 14pt;
+            font-weight: 600;
+            ">
+                or enter your referral code <br>
+                AAA8888 On App
+            </td>
+            <td><img src="appleStore.png" style="max-width: 130px;" alt="apple store"></td>
+        </tr>
+        <tr style="position: relative;">
+            <td style=" position: absolute;
+            right: 0;">
+                <div class="orange-circle"
+                style="
+                position: absolute;
+                bottom: -100px;
+                right: -120px;
+                height: 200px;
+                width: 200px;
+                display: inline-block;
+                border-radius: 50%;
+                z-index: -1;
+                background-color: #FB6B01;"
+                >
                 </div>
-                <div class="download-app">
-                    <img src="images/playStore.png" class="img-fluid" alt="playstore">
-                    <p>or enter your referral code <br>
-                        AAA8888 on App
-                    </p>
-                    <img src="images/appleStore.png" class="img-fluid" alt="applestore">
-                </div>
-                <div class="right-content" >
-                    <p>#DeliveringHappiness</p> 
-                </div> 
-                </div>
-            <div class="orange-circle"></div>
-        </div>
-        </div>
-    </main>
+            </td>
+        </tr>
+        <tr class="right-content">
+            <td style="    
+            position: absolute;
+            right: -26%;
+            font-size: 30pt;
+            top: 50%;
+            z-index: 1;
+            color: #7F7F7F;
+            transform: rotate(90Deg);">
+                #DeliveringHappiness
+            </td>
+        </tr>
+ 
+    </table>
+
 </body>
 
 </html>
